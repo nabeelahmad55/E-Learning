@@ -107,12 +107,12 @@ class Login extends DBConnection {
 			$mail->isSMTP();
 			$mail->Host = 'smtp.gmail.com';  
 			$mail->SMTPAuth = true;
-			$mail->Username = 'nab.ahmad55@gmail.com';  
-			$mail->Password = 'pfbe kslv efbg mzap';  
+			$mail->Username = '*';  
+			$mail->Password = '*';  
 			$mail->Port = 587;
 			$mail->SMTPSecure = 'tls';
 	
-			$mail->setFrom('nab.ahmad55@gmail.com');
+			$mail->setFrom('*');
 			$mail->addAddress($email);  
 	
 			$mail->isHTML(true);
