@@ -1,0 +1,6 @@
+# Ignore prebuilt/minified JS, CSS, and vendor assets from language stats
+dist/* linguist-vendored
+plugins/* linguist-vendored
+vendor/* linguist-vendored
+assets/* linguist-vendored
+node_modules/* linguist-vendored
